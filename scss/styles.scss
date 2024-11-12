@@ -36,14 +36,15 @@ body {
 
   main {
     height: 100%;
-    display: grid;
+    display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
 }
 
 .testimonials {
-  max-width: 69.375rem;
+  max-width: 90rem;
   display: grid;
   gap: 1.5rem;
   margin: 4.4375rem 1.5rem;
