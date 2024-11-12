@@ -94,16 +94,17 @@ body {
       display: flex;
       align-items: center;
 
-      .avatar {
+      img {
         display: block;
         max-width: 100%;
+        width: 1.75rem;
+        height: 1.75rem;
         margin-right: 1.125rem;
         border-radius: 100%;
       }
 
       .status-author {
         opacity: 0.5;
-        margin-top: 0.25rem;
       }
     }
 

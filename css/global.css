@@ -89,15 +89,16 @@ body {
   display: flex;
   align-items: center;
 }
-.testimonials .card .card-author .avatar {
+.testimonials .card .card-author img {
   display: block;
   max-width: 100%;
+  width: 1.75rem;
+  height: 1.75rem;
   margin-right: 1.125rem;
   border-radius: 100%;
 }
 .testimonials .card .card-author .status-author {
   opacity: 0.5;
-  margin-top: 0.25rem;
 }
 .testimonials .card h1 {
   font-size: 1.25rem;
